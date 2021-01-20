@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4B6D98A7-8E51-4E45-A7D5-FFDA0651293C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A353BA78-D9FD-4F8C-81FE-6A119C617472"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kouvee/Pelanggan/HomePelanggan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBEEA1B2-E996-4956-8C19-C5C88DEAF4FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kouvee/Pelanggan/ProdukPelanggan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "ProdukPelanggan"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DBEEA1B2-E996-4956-8C19-C5C88DEAF4FA - 83aadb05feccc80c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kouvee.ProdukPelanggan.URL_JSON.getter : Swift.String"
+                  moduleName = "Kouvee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanoctavius/Desktop/KouveeXCODE/Kouvee/Kouvee/Pelanggan/ProdukPelanggan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "DBEEA1B2-E996-4956-8C19-C5C88DEAF4FA - 88ccfbcf3a48f1bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kouvee.ProdukPelanggan.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Kouvee.ProdukPelanggan"
+                  moduleName = "Kouvee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanoctavius/Desktop/KouveeXCODE/Kouvee/Kouvee/Pelanggan/ProdukPelanggan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+               <Location
+                  uuid = "DBEEA1B2-E996-4956-8C19-C5C88DEAF4FA - 7c58c2d85a3430eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kouvee.ProdukPelanggan.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Kouvee.ProdukPelanggan&gt;"
+                  moduleName = "Kouvee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanoctavius/Desktop/KouveeXCODE/Kouvee/Kouvee/Pelanggan/ProdukPelanggan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA65D45C-2022-465E-9B69-C0ECC380835E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kouvee/CollectionView/SearchLayananCollection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF936047-7C9C-4556-9A8C-ECB3AB796F47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kouvee/Customer Service/Transaksi Layanan/DaftarLayanan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

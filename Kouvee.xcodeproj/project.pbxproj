@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D979C9958F523739F8105C8 /* Pods_Kouvee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D836970589E3AA5EAA2F930 /* Pods_Kouvee.framework */; };
+		F9017D0024586B37003070A3 /* DetilTransaksiProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9017CFF24586B37003070A3 /* DetilTransaksiProduk.swift */; };
+		F9029EE924520388008024E5 /* DaftarHewanProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029EE824520388008024E5 /* DaftarHewanProduk.swift */; };
+		F9029EEB245204D1008024E5 /* infoTransaksiProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029EEA245204D1008024E5 /* infoTransaksiProduk.swift */; };
+		F9029EED2452084D008024E5 /* DaftarProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9029EEC2452084D008024E5 /* DaftarProduk.swift */; };
+		F929C43D241900AF006937B1 /* ViewProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F929C43C241900AF006937B1 /* ViewProduk.swift */; };
+		F92A50C62477E1520095165F /* PemesananCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A50C52477E1520095165F /* PemesananCollection.swift */; };
+		F92A50C82477E1670095165F /* DetailPemesananCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A50C72477E1670095165F /* DetailPemesananCollection.swift */; };
+		F92A50CA2477E2020095165F /* PemesananCollectionAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A50C92477E2020095165F /* PemesananCollectionAdmin.swift */; };
+		F933D3A7242D3CBA00FBB383 /* TabBarCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F933D3A6242D3CBA00FBB383 /* TabBarCon.swift */; };
+		F9367DBA241FD1110038D2E6 /* AddProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9367DB9241FD1110038D2E6 /* AddProduk.swift */; };
+		F9367DBC241FD1220038D2E6 /* EditProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9367DBB241FD1220038D2E6 /* EditProduk.swift */; };
+		F93976E0242A03CA00ABFDB5 /* HomePelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976DF242A03CA00ABFDB5 /* HomePelanggan.swift */; };
+		F93976E2242A03E300ABFDB5 /* ProdukPelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976E1242A03E300ABFDB5 /* ProdukPelanggan.swift */; };
+		F93976E4242A03F300ABFDB5 /* LayananPelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976E3242A03F300ABFDB5 /* LayananPelanggan.swift */; };
+		F93976E6242BAF6A00ABFDB5 /* LayananCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976E5242BAF6A00ABFDB5 /* LayananCollection.swift */; };
+		F93976E8242C967400ABFDB5 /* SearchLayananCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976E7242C967400ABFDB5 /* SearchLayananCollection.swift */; };
+		F93C7E92249764CB004DDCEE /* LaporanCollectionAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E91249764CB004DDCEE /* LaporanCollectionAdmin.swift */; };
+		F93C7E9524978254004DDCEE /* Bulanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E9424978254004DDCEE /* Bulanan.swift */; };
+		F93C7E9724978263004DDCEE /* Tahunan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E9624978263004DDCEE /* Tahunan.swift */; };
+		F93C7E9924978A8A004DDCEE /* Tahun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E9824978A8A004DDCEE /* Tahun.swift */; };
+		F93C7E9B24978ADB004DDCEE /* Bulan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E9A24978ADB004DDCEE /* Bulan.swift */; };
+		F93C7E9E2497A73B004DDCEE /* FetchTransaksiProdukKasir.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E9D2497A73B004DDCEE /* FetchTransaksiProdukKasir.swift */; };
+		F93C7EA02497A750004DDCEE /* FetchTransaksiLayananKasir.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7E9F2497A750004DDCEE /* FetchTransaksiLayananKasir.swift */; };
+		F93C7EA22497A789004DDCEE /* ViewTransaksiProdukKasir.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7EA12497A789004DDCEE /* ViewTransaksiProdukKasir.swift */; };
+		F93C7EA42497A79A004DDCEE /* ViewTransaksiLayananKasir.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C7EA32497A79A004DDCEE /* ViewTransaksiLayananKasir.swift */; };
+		F9467085243F2013000657CF /* RespMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9467084243F2013000657CF /* RespMsg.swift */; };
+		F9467087243F2629000657CF /* RespErr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9467086243F2629000657CF /* RespErr.swift */; };
+		F949F0D8241800E6002D590E /* FetchProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949F0D7241800E6002D590E /* FetchProduk.swift */; };
+		F949F0DB241805B1002D590E /* ProdukCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949F0DA241805B1002D590E /* ProdukCollection.swift */; };
+		F94C68A0242D2222009BC309 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C689F242D2222009BC309 /* Info.swift */; };
+		F950F89A245AB2B000B9DB4B /* FetchTransaksiLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F899245AB2B000B9DB4B /* FetchTransaksiLayanan.swift */; };
+		F950F89C245AB2D900B9DB4B /* ViewTransaksiLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F89B245AB2D900B9DB4B /* ViewTransaksiLayanan.swift */; };
+		F950F89E245AB2EB00B9DB4B /* EditTransaksiLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F89D245AB2EB00B9DB4B /* EditTransaksiLayanan.swift */; };
+		F950F8A0245AB3C700B9DB4B /* DaftarLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F89F245AB3C700B9DB4B /* DaftarLayanan.swift */; };
+		F950F8A2245AB51300B9DB4B /* InfoTransaksiLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F8A1245AB51300B9DB4B /* InfoTransaksiLayanan.swift */; };
+		F950F8A4245AB52400B9DB4B /* DetailTransaksiLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F8A3245AB52400B9DB4B /* DetailTransaksiLayanan.swift */; };
+		F950F8A6245AB53700B9DB4B /* TransaksiLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F8A5245AB53700B9DB4B /* TransaksiLayanan.swift */; };
+		F950F8A8245AB54C00B9DB4B /* InfoDetailLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F8A7245AB54C00B9DB4B /* InfoDetailLayanan.swift */; };
+		F950F8AA245AC60900B9DB4B /* DetailLayananCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F950F8A9245AC60900B9DB4B /* DetailLayananCollection.swift */; };
+		F95C3C382498C207007F7175 /* HomeControllerKasir.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C3C372498C207007F7175 /* HomeControllerKasir.swift */; };
+		F95C3C3A2498C321007F7175 /* PembayaranCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C3C392498C321007F7175 /* PembayaranCollection.swift */; };
+		F95C9F3624420E7600CD5B4E /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95C9F3524420E7600CD5B4E /* image.xcassets */; };
+		F963402B2477D11900907B74 /* Pemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963402A2477D11900907B74 /* Pemesanan.swift */; };
+		F963402D2477D12500907B74 /* DetilPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963402C2477D12500907B74 /* DetilPemesanan.swift */; };
+		F963402F2477D15500907B74 /* InfoPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963402E2477D15500907B74 /* InfoPemesanan.swift */; };
+		F96340312477D16500907B74 /* InfoDetailPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340302477D16500907B74 /* InfoDetailPemesanan.swift */; };
+		F96340342477D39200907B74 /* FetchPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340332477D39200907B74 /* FetchPemesanan.swift */; };
+		F96340362477D3BE00907B74 /* DaftarProdukPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340352477D3BE00907B74 /* DaftarProdukPemesanan.swift */; };
+		F96340382477D3CF00907B74 /* DaftarSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340372477D3CF00907B74 /* DaftarSupplier.swift */; };
+		F963403A2477D3DF00907B74 /* ViewPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340392477D3DF00907B74 /* ViewPemesanan.swift */; };
+		F963403C2477D3F000907B74 /* EditPemesanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963403B2477D3F000907B74 /* EditPemesanan.swift */; };
+		F965112D24169649005CA23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965112C24169649005CA23A /* AppDelegate.swift */; };
+		F965112F24169649005CA23A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965112E24169649005CA23A /* SceneDelegate.swift */; };
+		F965113124169649005CA23A /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965113024169649005CA23A /* LogIn.swift */; };
+		F965113424169649005CA23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F965113224169649005CA23A /* Main.storyboard */; };
+		F965113724169649005CA23A /* Kouvee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F965113524169649005CA23A /* Kouvee.xcdatamodeld */; };
+		F965113C2416964B005CA23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F965113A2416964B005CA23A /* LaunchScreen.storyboard */; };
+		F96511492416A934005CA23A /* Produk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96511482416A934005CA23A /* Produk.swift */; };
+		F965114B2416A941005CA23A /* Layanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965114A2416A941005CA23A /* Layanan.swift */; };
+		F965114D2416A94E005CA23A /* Pelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965114C2416A94E005CA23A /* Pelanggan.swift */; };
+		F965114F2416A959005CA23A /* Pegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F965114E2416A959005CA23A /* Pegawai.swift */; };
+		F96511512416A962005CA23A /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96511502416A962005CA23A /* Supplier.swift */; };
+		F96511532416A976005CA23A /* Ukuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96511522416A976005CA23A /* Ukuran.swift */; };
+		F96511552416A984005CA23A /* JenisHewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96511542416A984005CA23A /* JenisHewan.swift */; };
+		F96511572416A9A5005CA23A /* Hewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96511562416A9A5005CA23A /* Hewan.swift */; };
+		F96B0C53243A0836008D7C78 /* DataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C52243A0836008D7C78 /* DataCollection.swift */; };
+		F96B0C55243A0846008D7C78 /* TransaksiCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C54243A0846008D7C78 /* TransaksiCollection.swift */; };
+		F96B0C57243A0852008D7C78 /* PengadaanCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C56243A0852008D7C78 /* PengadaanCollection.swift */; };
+		F96B0C59243A0A7D008D7C78 /* Coll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C58243A0A7D008D7C78 /* Coll.swift */; };
+		F96B0C5B243A1FF0008D7C78 /* FetchLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C5A243A1FF0008D7C78 /* FetchLayanan.swift */; };
+		F96B0C5D243A3149008D7C78 /* FetchUkuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C5C243A3149008D7C78 /* FetchUkuran.swift */; };
+		F96B0C64243A31BC008D7C78 /* FetchJenisHewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C63243A31BC008D7C78 /* FetchJenisHewan.swift */; };
+		F96B0C67243A31D3008D7C78 /* FetchSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C66243A31D3008D7C78 /* FetchSupplier.swift */; };
+		F96B0C6A243A3882008D7C78 /* UkuranCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C69243A3882008D7C78 /* UkuranCollection.swift */; };
+		F96B0C6C243A3895008D7C78 /* JenisHewanCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C6B243A3895008D7C78 /* JenisHewanCollection.swift */; };
+		F96B0C6E243A38A5008D7C78 /* SupplierCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B0C6D243A38A5008D7C78 /* SupplierCollection.swift */; };
+		F98BDC172452F82100D05AAC /* TransaksiProdukCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC162452F82100D05AAC /* TransaksiProdukCollection.swift */; };
+		F98BDC192452F83000D05AAC /* TransaksiLayananCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC182452F83000D05AAC /* TransaksiLayananCollection.swift */; };
+		F98BDC1B2452F90300D05AAC /* FetchTransaksiProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC1A2452F90300D05AAC /* FetchTransaksiProduk.swift */; };
+		F98BDC1D2452F9D400D05AAC /* TransaksiProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC1C2452F9D400D05AAC /* TransaksiProduk.swift */; };
+		F98BDC1F2452FCBC00D05AAC /* ViewTransaksiProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC1E2452FCBC00D05AAC /* ViewTransaksiProduk.swift */; };
+		F98BDC212452FCD300D05AAC /* EditTransaksiProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC202452FCD300D05AAC /* EditTransaksiProduk.swift */; };
+		F98BDC2724543EED00D05AAC /* InfoDetailProduk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BDC2624543EED00D05AAC /* InfoDetailProduk.swift */; };
+		F9967264243CF96F00BE339C /* PelangganCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9967263243CF96F00BE339C /* PelangganCollection.swift */; };
+		F9967266243CF97C00BE339C /* HewanCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9967265243CF97C00BE339C /* HewanCollection.swift */; };
+		F9B87A6824571F5F004FDFE1 /* DetailProdukCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B87A6724571F5F004FDFE1 /* DetailProdukCollection.swift */; };
+		F9BB708B243CECCF008DC483 /* HomeControllerCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB708A243CECCF008DC483 /* HomeControllerCS.swift */; };
+		F9BB708F243CED13008DC483 /* FetchPelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB708E243CED13008DC483 /* FetchPelanggan.swift */; };
+		F9BB7091243CED1F008DC483 /* AddPelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB7090243CED1F008DC483 /* AddPelanggan.swift */; };
+		F9BB7093243CED2B008DC483 /* ViewPelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB7092243CED2B008DC483 /* ViewPelanggan.swift */; };
+		F9BB7095243CED39008DC483 /* EditPelanggan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB7094243CED39008DC483 /* EditPelanggan.swift */; };
+		F9BB7097243CED45008DC483 /* FetchHewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB7096243CED45008DC483 /* FetchHewan.swift */; };
+		F9BB7099243CED56008DC483 /* AddHewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB7098243CED56008DC483 /* AddHewan.swift */; };
+		F9BB709B243CED62008DC483 /* ViewHewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB709A243CED62008DC483 /* ViewHewan.swift */; };
+		F9BB709D243CED7F008DC483 /* EditHewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB709C243CED7F008DC483 /* EditHewan.swift */; };
+		F9C3EDD9245AFB1D00E70AD7 /* DaftarHewanLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3EDD8245AFB1D00E70AD7 /* DaftarHewanLayanan.swift */; };
+		F9CC7CE524973BF8005688B5 /* FetchPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC7CE424973BF8005688B5 /* FetchPegawai.swift */; };
+		F9CC7CE724973C0D005688B5 /* ViewPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC7CE624973C0D005688B5 /* ViewPegawai.swift */; };
+		F9CC7CE924973C1E005688B5 /* AddPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC7CE824973C1E005688B5 /* AddPegawai.swift */; };
+		F9CC7CEB24973C2B005688B5 /* EditPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC7CEA24973C2B005688B5 /* EditPegawai.swift */; };
+		F9CC7CED24973C77005688B5 /* PegawaiCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC7CEC24973C77005688B5 /* PegawaiCollection.swift */; };
+		F9D62E9A241776A30082C010 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D62E99241776A30082C010 /* HomeController.swift */; };
+		F9D62E9C241776CA0082C010 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D62E9B241776CA0082C010 /* DataController.swift */; };
+		F9ECFCAD243B0FD500E25D38 /* ViewSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCAC243B0FD500E25D38 /* ViewSupplier.swift */; };
+		F9ECFCAF243B0FE700E25D38 /* ViewJenishewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCAE243B0FE700E25D38 /* ViewJenishewan.swift */; };
+		F9ECFCB1243B0FF900E25D38 /* AddJenishewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCB0243B0FF900E25D38 /* AddJenishewan.swift */; };
+		F9ECFCB3243B101100E25D38 /* EditJenishewan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCB2243B101100E25D38 /* EditJenishewan.swift */; };
+		F9ECFCB5243B102D00E25D38 /* AddSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCB4243B102D00E25D38 /* AddSupplier.swift */; };
+		F9ECFCB7243B103900E25D38 /* EditSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCB6243B103900E25D38 /* EditSupplier.swift */; };
+		F9ECFCB9243B105100E25D38 /* AddUkuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCB8243B105100E25D38 /* AddUkuran.swift */; };
+		F9ECFCBB243B106100E25D38 /* ViewUkuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCBA243B106100E25D38 /* ViewUkuran.swift */; };
+		F9ECFCBD243B107300E25D38 /* EditUkuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCBC243B107300E25D38 /* EditUkuran.swift */; };
+		F9ECFCBF243B108500E25D38 /* ViewLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCBE243B108500E25D38 /* ViewLayanan.swift */; };
+		F9ECFCC1243B109F00E25D38 /* AddLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCC0243B109F00E25D38 /* AddLayanan.swift */; };
+		F9ECFCC3243B10AC00E25D38 /* EditLayanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECFCC2243B10AC00E25D38 /* EditLayanan.swift */; };
+		F9F8B4622420D03300B49A91 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8B4612420D03300B49A91 /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D836970589E3AA5EAA2F930 /* Pods_Kouvee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kouvee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9A516EDD35B03C76FFF404 /* Pods-Kouvee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kouvee.debug.xcconfig"; path = "Target Support Files/Pods-Kouvee/Pods-Kouvee.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B59017DFD4C0D5ED001B75 /* Pods-Kouvee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kouvee.release.xcconfig"; path = "Target Support Files/Pods-Kouvee/Pods-Kouvee.release.xcconfig"; sourceTree = "<group>"; };
+		F9017CFF24586B37003070A3 /* DetilTransaksiProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetilTransaksiProduk.swift; sourceTree = "<group>"; };
+		F9029EE824520388008024E5 /* DaftarHewanProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarHewanProduk.swift; sourceTree = "<group>"; };
+		F9029EEA245204D1008024E5 /* infoTransaksiProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoTransaksiProduk.swift; sourceTree = "<group>"; };
+		F9029EEC2452084D008024E5 /* DaftarProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarProduk.swift; sourceTree = "<group>"; };
+		F929C43C241900AF006937B1 /* ViewProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProduk.swift; sourceTree = "<group>"; };
+		F92A50C52477E1520095165F /* PemesananCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PemesananCollection.swift; sourceTree = "<group>"; };
+		F92A50C72477E1670095165F /* DetailPemesananCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPemesananCollection.swift; sourceTree = "<group>"; };
+		F92A50C92477E2020095165F /* PemesananCollectionAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PemesananCollectionAdmin.swift; sourceTree = "<group>"; };
+		F933D3A6242D3CBA00FBB383 /* TabBarCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCon.swift; sourceTree = "<group>"; };
+		F9367DB9241FD1110038D2E6 /* AddProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProduk.swift; sourceTree = "<group>"; };
+		F9367DBB241FD1220038D2E6 /* EditProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProduk.swift; sourceTree = "<group>"; };
+		F93976DF242A03CA00ABFDB5 /* HomePelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePelanggan.swift; sourceTree = "<group>"; };
+		F93976E1242A03E300ABFDB5 /* ProdukPelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdukPelanggan.swift; sourceTree = "<group>"; };
+		F93976E3242A03F300ABFDB5 /* LayananPelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayananPelanggan.swift; sourceTree = "<group>"; };
+		F93976E5242BAF6A00ABFDB5 /* LayananCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayananCollection.swift; sourceTree = "<group>"; };
+		F93976E7242C967400ABFDB5 /* SearchLayananCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLayananCollection.swift; sourceTree = "<group>"; };
+		F93C7E91249764CB004DDCEE /* LaporanCollectionAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanCollectionAdmin.swift; sourceTree = "<group>"; };
+		F93C7E9424978254004DDCEE /* Bulanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulanan.swift; sourceTree = "<group>"; };
+		F93C7E9624978263004DDCEE /* Tahunan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahunan.swift; sourceTree = "<group>"; };
+		F93C7E9824978A8A004DDCEE /* Tahun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahun.swift; sourceTree = "<group>"; };
+		F93C7E9A24978ADB004DDCEE /* Bulan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulan.swift; sourceTree = "<group>"; };
+		F93C7E9D2497A73B004DDCEE /* FetchTransaksiProdukKasir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransaksiProdukKasir.swift; sourceTree = "<group>"; };
+		F93C7E9F2497A750004DDCEE /* FetchTransaksiLayananKasir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransaksiLayananKasir.swift; sourceTree = "<group>"; };
+		F93C7EA12497A789004DDCEE /* ViewTransaksiProdukKasir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransaksiProdukKasir.swift; sourceTree = "<group>"; };
+		F93C7EA32497A79A004DDCEE /* ViewTransaksiLayananKasir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransaksiLayananKasir.swift; sourceTree = "<group>"; };
+		F9467084243F2013000657CF /* RespMsg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespMsg.swift; sourceTree = "<group>"; };
+		F9467086243F2629000657CF /* RespErr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespErr.swift; sourceTree = "<group>"; };
+		F949F0D7241800E6002D590E /* FetchProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchProduk.swift; sourceTree = "<group>"; };
+		F949F0DA241805B1002D590E /* ProdukCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdukCollection.swift; sourceTree = "<group>"; };
+		F94C689F242D2222009BC309 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		F950F899245AB2B000B9DB4B /* FetchTransaksiLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransaksiLayanan.swift; sourceTree = "<group>"; };
+		F950F89B245AB2D900B9DB4B /* ViewTransaksiLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransaksiLayanan.swift; sourceTree = "<group>"; };
+		F950F89D245AB2EB00B9DB4B /* EditTransaksiLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransaksiLayanan.swift; sourceTree = "<group>"; };
+		F950F89F245AB3C700B9DB4B /* DaftarLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarLayanan.swift; sourceTree = "<group>"; };
+		F950F8A1245AB51300B9DB4B /* InfoTransaksiLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTransaksiLayanan.swift; sourceTree = "<group>"; };
+		F950F8A3245AB52400B9DB4B /* DetailTransaksiLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransaksiLayanan.swift; sourceTree = "<group>"; };
+		F950F8A5245AB53700B9DB4B /* TransaksiLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiLayanan.swift; sourceTree = "<group>"; };
+		F950F8A7245AB54C00B9DB4B /* InfoDetailLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailLayanan.swift; sourceTree = "<group>"; };
+		F950F8A9245AC60900B9DB4B /* DetailLayananCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLayananCollection.swift; sourceTree = "<group>"; };
+		F95C3C372498C207007F7175 /* HomeControllerKasir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerKasir.swift; sourceTree = "<group>"; };
+		F95C3C392498C321007F7175 /* PembayaranCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranCollection.swift; sourceTree = "<group>"; };
+		F95C9F3524420E7600CD5B4E /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		F963402A2477D11900907B74 /* Pemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pemesanan.swift; sourceTree = "<group>"; };
+		F963402C2477D12500907B74 /* DetilPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetilPemesanan.swift; sourceTree = "<group>"; };
+		F963402E2477D15500907B74 /* InfoPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPemesanan.swift; sourceTree = "<group>"; };
+		F96340302477D16500907B74 /* InfoDetailPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailPemesanan.swift; sourceTree = "<group>"; };
+		F96340332477D39200907B74 /* FetchPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPemesanan.swift; sourceTree = "<group>"; };
+		F96340352477D3BE00907B74 /* DaftarProdukPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarProdukPemesanan.swift; sourceTree = "<group>"; };
+		F96340372477D3CF00907B74 /* DaftarSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarSupplier.swift; sourceTree = "<group>"; };
+		F96340392477D3DF00907B74 /* ViewPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPemesanan.swift; sourceTree = "<group>"; };
+		F963403B2477D3F000907B74 /* EditPemesanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPemesanan.swift; sourceTree = "<group>"; };
+		F965112924169649005CA23A /* Kouvee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kouvee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F965112C24169649005CA23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F965112E24169649005CA23A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F965113024169649005CA23A /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		F965113324169649005CA23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F965113624169649005CA23A /* Kouvee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kouvee.xcdatamodel; sourceTree = "<group>"; };
+		F965113B2416964B005CA23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F965113D2416964B005CA23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96511482416A934005CA23A /* Produk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produk.swift; sourceTree = "<group>"; };
+		F965114A2416A941005CA23A /* Layanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layanan.swift; sourceTree = "<group>"; };
+		F965114C2416A94E005CA23A /* Pelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelanggan.swift; sourceTree = "<group>"; };
+		F965114E2416A959005CA23A /* Pegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pegawai.swift; sourceTree = "<group>"; };
+		F96511502416A962005CA23A /* Supplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		F96511522416A976005CA23A /* Ukuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukuran.swift; sourceTree = "<group>"; };
+		F96511542416A984005CA23A /* JenisHewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenisHewan.swift; sourceTree = "<group>"; };
+		F96511562416A9A5005CA23A /* Hewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hewan.swift; sourceTree = "<group>"; };
+		F96B0C52243A0836008D7C78 /* DataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollection.swift; sourceTree = "<group>"; };
+		F96B0C54243A0846008D7C78 /* TransaksiCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiCollection.swift; sourceTree = "<group>"; };
+		F96B0C56243A0852008D7C78 /* PengadaanCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengadaanCollection.swift; sourceTree = "<group>"; };
+		F96B0C58243A0A7D008D7C78 /* Coll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coll.swift; sourceTree = "<group>"; };
+		F96B0C5A243A1FF0008D7C78 /* FetchLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLayanan.swift; sourceTree = "<group>"; };
+		F96B0C5C243A3149008D7C78 /* FetchUkuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUkuran.swift; sourceTree = "<group>"; };
+		F96B0C63243A31BC008D7C78 /* FetchJenisHewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchJenisHewan.swift; sourceTree = "<group>"; };
+		F96B0C66243A31D3008D7C78 /* FetchSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSupplier.swift; sourceTree = "<group>"; };
+		F96B0C69243A3882008D7C78 /* UkuranCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkuranCollection.swift; sourceTree = "<group>"; };
+		F96B0C6B243A3895008D7C78 /* JenisHewanCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenisHewanCollection.swift; sourceTree = "<group>"; };
+		F96B0C6D243A38A5008D7C78 /* SupplierCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierCollection.swift; sourceTree = "<group>"; };
+		F98BDC162452F82100D05AAC /* TransaksiProdukCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiProdukCollection.swift; sourceTree = "<group>"; };
+		F98BDC182452F83000D05AAC /* TransaksiLayananCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiLayananCollection.swift; sourceTree = "<group>"; };
+		F98BDC1A2452F90300D05AAC /* FetchTransaksiProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransaksiProduk.swift; sourceTree = "<group>"; };
+		F98BDC1C2452F9D400D05AAC /* TransaksiProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiProduk.swift; sourceTree = "<group>"; };
+		F98BDC1E2452FCBC00D05AAC /* ViewTransaksiProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransaksiProduk.swift; sourceTree = "<group>"; };
+		F98BDC202452FCD300D05AAC /* EditTransaksiProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransaksiProduk.swift; sourceTree = "<group>"; };
+		F98BDC2624543EED00D05AAC /* InfoDetailProduk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailProduk.swift; sourceTree = "<group>"; };
+		F9967263243CF96F00BE339C /* PelangganCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PelangganCollection.swift; sourceTree = "<group>"; };
+		F9967265243CF97C00BE339C /* HewanCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HewanCollection.swift; sourceTree = "<group>"; };
+		F9B87A6724571F5F004FDFE1 /* DetailProdukCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProdukCollection.swift; sourceTree = "<group>"; };
+		F9BB708A243CECCF008DC483 /* HomeControllerCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerCS.swift; sourceTree = "<group>"; };
+		F9BB708E243CED13008DC483 /* FetchPelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPelanggan.swift; sourceTree = "<group>"; };
+		F9BB7090243CED1F008DC483 /* AddPelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPelanggan.swift; sourceTree = "<group>"; };
+		F9BB7092243CED2B008DC483 /* ViewPelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPelanggan.swift; sourceTree = "<group>"; };
+		F9BB7094243CED39008DC483 /* EditPelanggan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPelanggan.swift; sourceTree = "<group>"; };
+		F9BB7096243CED45008DC483 /* FetchHewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchHewan.swift; sourceTree = "<group>"; };
+		F9BB7098243CED56008DC483 /* AddHewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHewan.swift; sourceTree = "<group>"; };
+		F9BB709A243CED62008DC483 /* ViewHewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHewan.swift; sourceTree = "<group>"; };
+		F9BB709C243CED7F008DC483 /* EditHewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHewan.swift; sourceTree = "<group>"; };
+		F9C3EDD8245AFB1D00E70AD7 /* DaftarHewanLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarHewanLayanan.swift; sourceTree = "<group>"; };
+		F9CC7CE424973BF8005688B5 /* FetchPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPegawai.swift; sourceTree = "<group>"; };
+		F9CC7CE624973C0D005688B5 /* ViewPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPegawai.swift; sourceTree = "<group>"; };
+		F9CC7CE824973C1E005688B5 /* AddPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPegawai.swift; sourceTree = "<group>"; };
+		F9CC7CEA24973C2B005688B5 /* EditPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPegawai.swift; sourceTree = "<group>"; };
+		F9CC7CEC24973C77005688B5 /* PegawaiCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegawaiCollection.swift; sourceTree = "<group>"; };
+		F9D62E99241776A30082C010 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		F9D62E9B241776CA0082C010 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F9ECFCAC243B0FD500E25D38 /* ViewSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSupplier.swift; sourceTree = "<group>"; };
+		F9ECFCAE243B0FE700E25D38 /* ViewJenishewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJenishewan.swift; sourceTree = "<group>"; };
+		F9ECFCB0243B0FF900E25D38 /* AddJenishewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJenishewan.swift; sourceTree = "<group>"; };
+		F9ECFCB2243B101100E25D38 /* EditJenishewan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJenishewan.swift; sourceTree = "<group>"; };
+		F9ECFCB4243B102D00E25D38 /* AddSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSupplier.swift; sourceTree = "<group>"; };
+		F9ECFCB6243B103900E25D38 /* EditSupplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSupplier.swift; sourceTree = "<group>"; };
+		F9ECFCB8243B105100E25D38 /* AddUkuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUkuran.swift; sourceTree = "<group>"; };
+		F9ECFCBA243B106100E25D38 /* ViewUkuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUkuran.swift; sourceTree = "<group>"; };
+		F9ECFCBC243B107300E25D38 /* EditUkuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUkuran.swift; sourceTree = "<group>"; };
+		F9ECFCBE243B108500E25D38 /* ViewLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayanan.swift; sourceTree = "<group>"; };
+		F9ECFCC0243B109F00E25D38 /* AddLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLayanan.swift; sourceTree = "<group>"; };
+		F9ECFCC2243B10AC00E25D38 /* EditLayanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLayanan.swift; sourceTree = "<group>"; };
+		F9F8B4612420D03300B49A91 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F965112624169649005CA23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D979C9958F523739F8105C8 /* Pods_Kouvee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092FA564BBCC0AD1D7CAD172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D836970589E3AA5EAA2F930 /* Pods_Kouvee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E9AEBD66849E1A219C9606C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9A516EDD35B03C76FFF404 /* Pods-Kouvee.debug.xcconfig */,
+				C1B59017DFD4C0D5ED001B75 /* Pods-Kouvee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9029EE42451FF30008024E5 /* Transaksi Produk */ = {
+			isa = PBXGroup;
+			children = (
+				F98BDC1A2452F90300D05AAC /* FetchTransaksiProduk.swift */,
+				F9029EE824520388008024E5 /* DaftarHewanProduk.swift */,
+				F9029EEC2452084D008024E5 /* DaftarProduk.swift */,
+				F98BDC1E2452FCBC00D05AAC /* ViewTransaksiProduk.swift */,
+				F98BDC202452FCD300D05AAC /* EditTransaksiProduk.swift */,
+			);
+			path = "Transaksi Produk";
+			sourceTree = "<group>";
+		};
+		F9029EE52451FF39008024E5 /* Transaksi Layanan */ = {
+			isa = PBXGroup;
+			children = (
+				F950F899245AB2B000B9DB4B /* FetchTransaksiLayanan.swift */,
+				F9C3EDD8245AFB1D00E70AD7 /* DaftarHewanLayanan.swift */,
+				F950F89B245AB2D900B9DB4B /* ViewTransaksiLayanan.swift */,
+				F950F89D245AB2EB00B9DB4B /* EditTransaksiLayanan.swift */,
+				F950F89F245AB3C700B9DB4B /* DaftarLayanan.swift */,
+			);
+			path = "Transaksi Layanan";
+			sourceTree = "<group>";
+		};
+		F92A50C42477E1360095165F /* Pemesanan */ = {
+			isa = PBXGroup;
+			children = (
+				F92A50C52477E1520095165F /* PemesananCollection.swift */,
+				F92A50C72477E1670095165F /* DetailPemesananCollection.swift */,
+			);
+			path = Pemesanan;
+			sourceTree = "<group>";
+		};
+		F933D3A5242D3C9300FBB383 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F933D3A6242D3CBA00FBB383 /* TabBarCon.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		F93C7E9324978240004DDCEE /* Laporan */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7E9424978254004DDCEE /* Bulanan.swift */,
+				F93C7E9624978263004DDCEE /* Tahunan.swift */,
+			);
+			path = Laporan;
+			sourceTree = "<group>";
+		};
+		F93C7E9C2497A723004DDCEE /* Pembayaran */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7E9D2497A73B004DDCEE /* FetchTransaksiProdukKasir.swift */,
+				F93C7E9F2497A750004DDCEE /* FetchTransaksiLayananKasir.swift */,
+				F93C7EA12497A789004DDCEE /* ViewTransaksiProdukKasir.swift */,
+				F93C7EA32497A79A004DDCEE /* ViewTransaksiLayananKasir.swift */,
+			);
+			path = Pembayaran;
+			sourceTree = "<group>";
+		};
+		F949F0D92418058B002D590E /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F92A50C42477E1360095165F /* Pemesanan */,
+				F98BDC152452F81000D05AAC /* Transaksi */,
+				F96B0C68243A3857008D7C78 /* Data */,
+				F93976E7242C967400ABFDB5 /* SearchLayananCollection.swift */,
+				F96B0C54243A0846008D7C78 /* TransaksiCollection.swift */,
+				F96B0C56243A0852008D7C78 /* PengadaanCollection.swift */,
+				F92A50C92477E2020095165F /* PemesananCollectionAdmin.swift */,
+				F93C7E91249764CB004DDCEE /* LaporanCollectionAdmin.swift */,
+				F95C3C392498C321007F7175 /* PembayaranCollection.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		F96340322477D37500907B74 /* Pemesanan */ = {
+			isa = PBXGroup;
+			children = (
+				F96340332477D39200907B74 /* FetchPemesanan.swift */,
+				F96340352477D3BE00907B74 /* DaftarProdukPemesanan.swift */,
+				F96340372477D3CF00907B74 /* DaftarSupplier.swift */,
+				F96340392477D3DF00907B74 /* ViewPemesanan.swift */,
+				F963403B2477D3F000907B74 /* EditPemesanan.swift */,
+			);
+			path = Pemesanan;
+			sourceTree = "<group>";
+		};
+		F965112024169649005CA23A = {
+			isa = PBXGroup;
+			children = (
+				F965112B24169649005CA23A /* Kouvee */,
+				F965112A24169649005CA23A /* Products */,
+				6E9AEBD66849E1A219C9606C /* Pods */,
+				092FA564BBCC0AD1D7CAD172 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F965112A24169649005CA23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F965112924169649005CA23A /* Kouvee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F965112B24169649005CA23A /* Kouvee */ = {
+			isa = PBXGroup;
+			children = (
+				F933D3A5242D3C9300FBB383 /* TabBarController */,
+				F949F0D92418058B002D590E /* CollectionView */,
+				F965114724169731005CA23A /* Pelanggan */,
+				F965114624169729005CA23A /* Kasir */,
+				F965114524169720005CA23A /* Customer Service */,
+				F96511442416971A005CA23A /* Admin */,
+				F965114324169705005CA23A /* Entity */,
+				F965112C24169649005CA23A /* AppDelegate.swift */,
+				F965112E24169649005CA23A /* SceneDelegate.swift */,
+				F965113024169649005CA23A /* LogIn.swift */,
+				F965113224169649005CA23A /* Main.storyboard */,
+				F965113A2416964B005CA23A /* LaunchScreen.storyboard */,
+				F965113D2416964B005CA23A /* Info.plist */,
+				F965113524169649005CA23A /* Kouvee.xcdatamodeld */,
+				F95C9F3524420E7600CD5B4E /* image.xcassets */,
+			);
+			path = Kouvee;
+			sourceTree = "<group>";
+		};
+		F965114324169705005CA23A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F96511482416A934005CA23A /* Produk.swift */,
+				F965114A2416A941005CA23A /* Layanan.swift */,
+				F96511562416A9A5005CA23A /* Hewan.swift */,
+				F96511522416A976005CA23A /* Ukuran.swift */,
+				F96511542416A984005CA23A /* JenisHewan.swift */,
+				F965114C2416A94E005CA23A /* Pelanggan.swift */,
+				F965114E2416A959005CA23A /* Pegawai.swift */,
+				F96511502416A962005CA23A /* Supplier.swift */,
+				F9F8B4612420D03300B49A91 /* Colors.swift */,
+				F94C689F242D2222009BC309 /* Info.swift */,
+				F96B0C58243A0A7D008D7C78 /* Coll.swift */,
+				F9467084243F2013000657CF /* RespMsg.swift */,
+				F9467086243F2629000657CF /* RespErr.swift */,
+				F98BDC1C2452F9D400D05AAC /* TransaksiProduk.swift */,
+				F950F8A5245AB53700B9DB4B /* TransaksiLayanan.swift */,
+				F950F8A7245AB54C00B9DB4B /* InfoDetailLayanan.swift */,
+				F98BDC2624543EED00D05AAC /* InfoDetailProduk.swift */,
+				F9029EEA245204D1008024E5 /* infoTransaksiProduk.swift */,
+				F950F8A1245AB51300B9DB4B /* InfoTransaksiLayanan.swift */,
+				F9017CFF24586B37003070A3 /* DetilTransaksiProduk.swift */,
+				F950F8A3245AB52400B9DB4B /* DetailTransaksiLayanan.swift */,
+				F963402A2477D11900907B74 /* Pemesanan.swift */,
+				F963402C2477D12500907B74 /* DetilPemesanan.swift */,
+				F963402E2477D15500907B74 /* InfoPemesanan.swift */,
+				F96340302477D16500907B74 /* InfoDetailPemesanan.swift */,
+				F93C7E9824978A8A004DDCEE /* Tahun.swift */,
+				F93C7E9A24978ADB004DDCEE /* Bulan.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F96511442416971A005CA23A /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7E9324978240004DDCEE /* Laporan */,
+				F9CC7CE324973BD9005688B5 /* Pegawai */,
+				F96340322477D37500907B74 /* Pemesanan */,
+				F96B0C62243A317B008D7C78 /* Supplier */,
+				F96B0C61243A316E008D7C78 /* JenisHewan */,
+				F96B0C60243A3166008D7C78 /* Ukuran */,
+				F96B0C5F243A315B008D7C78 /* Layanan */,
+				F96B0C5E243A3152008D7C78 /* Produk */,
+				F9D62E99241776A30082C010 /* HomeController.swift */,
+				F9D62E9B241776CA0082C010 /* DataController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		F965114524169720005CA23A /* Customer Service */ = {
+			isa = PBXGroup;
+			children = (
+				F9029EE52451FF39008024E5 /* Transaksi Layanan */,
+				F9029EE42451FF30008024E5 /* Transaksi Produk */,
+				F9BB708D243CECFE008DC483 /* Hewan */,
+				F9BB708C243CECF0008DC483 /* Pelanggan */,
+				F9BB708A243CECCF008DC483 /* HomeControllerCS.swift */,
+			);
+			path = "Customer Service";
+			sourceTree = "<group>";
+		};
+		F965114624169729005CA23A /* Kasir */ = {
+			isa = PBXGroup;
+			children = (
+				F93C7E9C2497A723004DDCEE /* Pembayaran */,
+				F95C3C372498C207007F7175 /* HomeControllerKasir.swift */,
+			);
+			path = Kasir;
+			sourceTree = "<group>";
+		};
+		F965114724169731005CA23A /* Pelanggan */ = {
+			isa = PBXGroup;
+			children = (
+				F93976DF242A03CA00ABFDB5 /* HomePelanggan.swift */,
+				F93976E1242A03E300ABFDB5 /* ProdukPelanggan.swift */,
+				F93976E3242A03F300ABFDB5 /* LayananPelanggan.swift */,
+			);
+			path = Pelanggan;
+			sourceTree = "<group>";
+		};
+		F96B0C5E243A3152008D7C78 /* Produk */ = {
+			isa = PBXGroup;
+			children = (
+				F949F0D7241800E6002D590E /* FetchProduk.swift */,
+				F9367DBB241FD1220038D2E6 /* EditProduk.swift */,
+				F9367DB9241FD1110038D2E6 /* AddProduk.swift */,
+				F929C43C241900AF006937B1 /* ViewProduk.swift */,
+			);
+			path = Produk;
+			sourceTree = "<group>";
+		};
+		F96B0C5F243A315B008D7C78 /* Layanan */ = {
+			isa = PBXGroup;
+			children = (
+				F96B0C5A243A1FF0008D7C78 /* FetchLayanan.swift */,
+				F9ECFCBE243B108500E25D38 /* ViewLayanan.swift */,
+				F9ECFCC0243B109F00E25D38 /* AddLayanan.swift */,
+				F9ECFCC2243B10AC00E25D38 /* EditLayanan.swift */,
+			);
+			path = Layanan;
+			sourceTree = "<group>";
+		};
+		F96B0C60243A3166008D7C78 /* Ukuran */ = {
+			isa = PBXGroup;
+			children = (
+				F96B0C5C243A3149008D7C78 /* FetchUkuran.swift */,
+				F9ECFCB8243B105100E25D38 /* AddUkuran.swift */,
+				F9ECFCBA243B106100E25D38 /* ViewUkuran.swift */,
+				F9ECFCBC243B107300E25D38 /* EditUkuran.swift */,
+			);
+			path = Ukuran;
+			sourceTree = "<group>";
+		};
+		F96B0C61243A316E008D7C78 /* JenisHewan */ = {
+			isa = PBXGroup;
+			children = (
+				F96B0C63243A31BC008D7C78 /* FetchJenisHewan.swift */,
+				F9ECFCAE243B0FE700E25D38 /* ViewJenishewan.swift */,
+				F9ECFCB0243B0FF900E25D38 /* AddJenishewan.swift */,
+				F9ECFCB2243B101100E25D38 /* EditJenishewan.swift */,
+			);
+			path = JenisHewan;
+			sourceTree = "<group>";
+		};
+		F96B0C62243A317B008D7C78 /* Supplier */ = {
+			isa = PBXGroup;
+			children = (
+				F96B0C66243A31D3008D7C78 /* FetchSupplier.swift */,
+				F9ECFCAC243B0FD500E25D38 /* ViewSupplier.swift */,
+				F9ECFCB4243B102D00E25D38 /* AddSupplier.swift */,
+				F9ECFCB6243B103900E25D38 /* EditSupplier.swift */,
+			);
+			path = Supplier;
+			sourceTree = "<group>";
+		};
+		F96B0C68243A3857008D7C78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F949F0DA241805B1002D590E /* ProdukCollection.swift */,
+				F93976E5242BAF6A00ABFDB5 /* LayananCollection.swift */,
+				F96B0C52243A0836008D7C78 /* DataCollection.swift */,
+				F96B0C69243A3882008D7C78 /* UkuranCollection.swift */,
+				F96B0C6B243A3895008D7C78 /* JenisHewanCollection.swift */,
+				F96B0C6D243A38A5008D7C78 /* SupplierCollection.swift */,
+				F9967263243CF96F00BE339C /* PelangganCollection.swift */,
+				F9967265243CF97C00BE339C /* HewanCollection.swift */,
+				F9CC7CEC24973C77005688B5 /* PegawaiCollection.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F98BDC152452F81000D05AAC /* Transaksi */ = {
+			isa = PBXGroup;
+			children = (
+				F98BDC162452F82100D05AAC /* TransaksiProdukCollection.swift */,
+				F98BDC182452F83000D05AAC /* TransaksiLayananCollection.swift */,
+				F9B87A6724571F5F004FDFE1 /* DetailProdukCollection.swift */,
+				F950F8A9245AC60900B9DB4B /* DetailLayananCollection.swift */,
+			);
+			path = Transaksi;
+			sourceTree = "<group>";
+		};
+		F9BB708C243CECF0008DC483 /* Pelanggan */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB708E243CED13008DC483 /* FetchPelanggan.swift */,
+				F9BB7090243CED1F008DC483 /* AddPelanggan.swift */,
+				F9BB7092243CED2B008DC483 /* ViewPelanggan.swift */,
+				F9BB7094243CED39008DC483 /* EditPelanggan.swift */,
+			);
+			path = Pelanggan;
+			sourceTree = "<group>";
+		};
+		F9BB708D243CECFE008DC483 /* Hewan */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB7096243CED45008DC483 /* FetchHewan.swift */,
+				F9BB7098243CED56008DC483 /* AddHewan.swift */,
+				F9BB709A243CED62008DC483 /* ViewHewan.swift */,
+				F9BB709C243CED7F008DC483 /* EditHewan.swift */,
+			);
+			path = Hewan;
+			sourceTree = "<group>";
+		};
+		F9CC7CE324973BD9005688B5 /* Pegawai */ = {
+			isa = PBXGroup;
+			children = (
+				F9CC7CE424973BF8005688B5 /* FetchPegawai.swift */,
+				F9CC7CE624973C0D005688B5 /* ViewPegawai.swift */,
+				F9CC7CE824973C1E005688B5 /* AddPegawai.swift */,
+				F9CC7CEA24973C2B005688B5 /* EditPegawai.swift */,
+			);
+			path = Pegawai;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F965112824169649005CA23A /* Kouvee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96511402416964B005CA23A /* Build configuration list for PBXNativeTarget "Kouvee" */;
+			buildPhases = (
+				D6E0BE61D5427327BCCA270C /* [CP] Check Pods Manifest.lock */,
+				F965112524169649005CA23A /* Sources */,
+				F965112624169649005CA23A /* Frameworks */,
+				F965112724169649005CA23A /* Resources */,
+				C2EF74DF18CFB6F17C7C21A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kouvee;
+			productName = Kouvee;
+			productReference = F965112924169649005CA23A /* Kouvee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F965112124169649005CA23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					F965112824169649005CA23A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F965112424169649005CA23A /* Build configuration list for PBXProject "Kouvee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F965112024169649005CA23A;
+			productRefGroup = F965112A24169649005CA23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F965112824169649005CA23A /* Kouvee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F965112724169649005CA23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95C9F3624420E7600CD5B4E /* image.xcassets in Resources */,
+				F965113C2416964B005CA23A /* LaunchScreen.storyboard in Resources */,
+				F965113424169649005CA23A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2EF74DF18CFB6F17C7C21A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kouvee/Pods-Kouvee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kouvee/Pods-Kouvee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kouvee/Pods-Kouvee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E0BE61D5427327BCCA270C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kouvee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F965112524169649005CA23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB708B243CECCF008DC483 /* HomeControllerCS.swift in Sources */,
+				F950F8A6245AB53700B9DB4B /* TransaksiLayanan.swift in Sources */,
+				F9ECFCBD243B107300E25D38 /* EditUkuran.swift in Sources */,
+				F98BDC212452FCD300D05AAC /* EditTransaksiProduk.swift in Sources */,
+				F9ECFCAD243B0FD500E25D38 /* ViewSupplier.swift in Sources */,
+				F933D3A7242D3CBA00FBB383 /* TabBarCon.swift in Sources */,
+				F93976E8242C967400ABFDB5 /* SearchLayananCollection.swift in Sources */,
+				F93976E2242A03E300ABFDB5 /* ProdukPelanggan.swift in Sources */,
+				F96B0C57243A0852008D7C78 /* PengadaanCollection.swift in Sources */,
+				F965113124169649005CA23A /* LogIn.swift in Sources */,
+				F94C68A0242D2222009BC309 /* Info.swift in Sources */,
+				F98BDC172452F82100D05AAC /* TransaksiProdukCollection.swift in Sources */,
+				F98BDC1B2452F90300D05AAC /* FetchTransaksiProduk.swift in Sources */,
+				F96340382477D3CF00907B74 /* DaftarSupplier.swift in Sources */,
+				F96511532416A976005CA23A /* Ukuran.swift in Sources */,
+				F93976E4242A03F300ABFDB5 /* LayananPelanggan.swift in Sources */,
+				F949F0DB241805B1002D590E /* ProdukCollection.swift in Sources */,
+				F96340312477D16500907B74 /* InfoDetailPemesanan.swift in Sources */,
+				F92A50C82477E1670095165F /* DetailPemesananCollection.swift in Sources */,
+				F9ECFCBF243B108500E25D38 /* ViewLayanan.swift in Sources */,
+				F96B0C5D243A3149008D7C78 /* FetchUkuran.swift in Sources */,
+				F9ECFCB7243B103900E25D38 /* EditSupplier.swift in Sources */,
+				F9ECFCC3243B10AC00E25D38 /* EditLayanan.swift in Sources */,
+				F9BB7097243CED45008DC483 /* FetchHewan.swift in Sources */,
+				F93C7E9924978A8A004DDCEE /* Tahun.swift in Sources */,
+				F96B0C67243A31D3008D7C78 /* FetchSupplier.swift in Sources */,
+				F96B0C6A243A3882008D7C78 /* UkuranCollection.swift in Sources */,
+				F9467087243F2629000657CF /* RespErr.swift in Sources */,
+				F96340362477D3BE00907B74 /* DaftarProdukPemesanan.swift in Sources */,
+				F9ECFCB3243B101100E25D38 /* EditJenishewan.swift in Sources */,
+				F93C7E9724978263004DDCEE /* Tahunan.swift in Sources */,
+				F98BDC192452F83000D05AAC /* TransaksiLayananCollection.swift in Sources */,
+				F96511512416A962005CA23A /* Supplier.swift in Sources */,
+				F93C7E92249764CB004DDCEE /* LaporanCollectionAdmin.swift in Sources */,
+				F96B0C6C243A3895008D7C78 /* JenisHewanCollection.swift in Sources */,
+				F965112D24169649005CA23A /* AppDelegate.swift in Sources */,
+				F9ECFCBB243B106100E25D38 /* ViewUkuran.swift in Sources */,
+				F98BDC1D2452F9D400D05AAC /* TransaksiProduk.swift in Sources */,
+				F9BB7099243CED56008DC483 /* AddHewan.swift in Sources */,
+				F950F8A0245AB3C700B9DB4B /* DaftarLayanan.swift in Sources */,
+				F93C7EA22497A789004DDCEE /* ViewTransaksiProdukKasir.swift in Sources */,
+				F93C7EA02497A750004DDCEE /* FetchTransaksiLayananKasir.swift in Sources */,
+				F92A50CA2477E2020095165F /* PemesananCollectionAdmin.swift in Sources */,
+				F96B0C6E243A38A5008D7C78 /* SupplierCollection.swift in Sources */,
+				F963402F2477D15500907B74 /* InfoPemesanan.swift in Sources */,
+				F9017D0024586B37003070A3 /* DetilTransaksiProduk.swift in Sources */,
+				F95C3C3A2498C321007F7175 /* PembayaranCollection.swift in Sources */,
+				F9CC7CE524973BF8005688B5 /* FetchPegawai.swift in Sources */,
+				F9967266243CF97C00BE339C /* HewanCollection.swift in Sources */,
+				F963403C2477D3F000907B74 /* EditPemesanan.swift in Sources */,
+				F9CC7CED24973C77005688B5 /* PegawaiCollection.swift in Sources */,
+				F9F8B4622420D03300B49A91 /* Colors.swift in Sources */,
+				F963403A2477D3DF00907B74 /* ViewPemesanan.swift in Sources */,
+				F9467085243F2013000657CF /* RespMsg.swift in Sources */,
+				F965114B2416A941005CA23A /* Layanan.swift in Sources */,
+				F9B87A6824571F5F004FDFE1 /* DetailProdukCollection.swift in Sources */,
+				F98BDC1F2452FCBC00D05AAC /* ViewTransaksiProduk.swift in Sources */,
+				F963402D2477D12500907B74 /* DetilPemesanan.swift in Sources */,
+				F96B0C59243A0A7D008D7C78 /* Coll.swift in Sources */,
+				F9367DBA241FD1110038D2E6 /* AddProduk.swift in Sources */,
+				F96B0C53243A0836008D7C78 /* DataCollection.swift in Sources */,
+				F9CC7CEB24973C2B005688B5 /* EditPegawai.swift in Sources */,
+				F93C7E9524978254004DDCEE /* Bulanan.swift in Sources */,
+				F96B0C55243A0846008D7C78 /* TransaksiCollection.swift in Sources */,
+				F96511572416A9A5005CA23A /* Hewan.swift in Sources */,
+				F9D62E9A241776A30082C010 /* HomeController.swift in Sources */,
+				F9D62E9C241776CA0082C010 /* DataController.swift in Sources */,
+				F950F89E245AB2EB00B9DB4B /* EditTransaksiLayanan.swift in Sources */,
+				F9BB7091243CED1F008DC483 /* AddPelanggan.swift in Sources */,
+				F950F8A4245AB52400B9DB4B /* DetailTransaksiLayanan.swift in Sources */,
+				F9029EE924520388008024E5 /* DaftarHewanProduk.swift in Sources */,
+				F93C7E9B24978ADB004DDCEE /* Bulan.swift in Sources */,
+				F93C7EA42497A79A004DDCEE /* ViewTransaksiLayananKasir.swift in Sources */,
+				F93976E6242BAF6A00ABFDB5 /* LayananCollection.swift in Sources */,
+				F9C3EDD9245AFB1D00E70AD7 /* DaftarHewanLayanan.swift in Sources */,
+				F9BB708F243CED13008DC483 /* FetchPelanggan.swift in Sources */,
+				F96511492416A934005CA23A /* Produk.swift in Sources */,
+				F950F8A2245AB51300B9DB4B /* InfoTransaksiLayanan.swift in Sources */,
+				F950F89A245AB2B000B9DB4B /* FetchTransaksiLayanan.swift in Sources */,
+				F963402B2477D11900907B74 /* Pemesanan.swift in Sources */,
+				F950F8AA245AC60900B9DB4B /* DetailLayananCollection.swift in Sources */,
+				F9CC7CE924973C1E005688B5 /* AddPegawai.swift in Sources */,
+				F9ECFCB5243B102D00E25D38 /* AddSupplier.swift in Sources */,
+				F9029EEB245204D1008024E5 /* infoTransaksiProduk.swift in Sources */,
+				F96511552416A984005CA23A /* JenisHewan.swift in Sources */,
+				F9ECFCC1243B109F00E25D38 /* AddLayanan.swift in Sources */,
+				F9ECFCB9243B105100E25D38 /* AddUkuran.swift in Sources */,
+				F965113724169649005CA23A /* Kouvee.xcdatamodeld in Sources */,
+				F9BB709B243CED62008DC483 /* ViewHewan.swift in Sources */,
+				F9ECFCAF243B0FE700E25D38 /* ViewJenishewan.swift in Sources */,
+				F92A50C62477E1520095165F /* PemesananCollection.swift in Sources */,
+				F965112F24169649005CA23A /* SceneDelegate.swift in Sources */,
+				F95C3C382498C207007F7175 /* HomeControllerKasir.swift in Sources */,
+				F949F0D8241800E6002D590E /* FetchProduk.swift in Sources */,
+				F9ECFCB1243B0FF900E25D38 /* AddJenishewan.swift in Sources */,
+				F9BB7093243CED2B008DC483 /* ViewPelanggan.swift in Sources */,
+				F965114F2416A959005CA23A /* Pegawai.swift in Sources */,
+				F96B0C5B243A1FF0008D7C78 /* FetchLayanan.swift in Sources */,
+				F965114D2416A94E005CA23A /* Pelanggan.swift in Sources */,
+				F93C7E9E2497A73B004DDCEE /* FetchTransaksiProdukKasir.swift in Sources */,
+				F9967264243CF96F00BE339C /* PelangganCollection.swift in Sources */,
+				F929C43D241900AF006937B1 /* ViewProduk.swift in Sources */,
+				F950F89C245AB2D900B9DB4B /* ViewTransaksiLayanan.swift in Sources */,
+				F93976E0242A03CA00ABFDB5 /* HomePelanggan.swift in Sources */,
+				F950F8A8245AB54C00B9DB4B /* InfoDetailLayanan.swift in Sources */,
+				F96340342477D39200907B74 /* FetchPemesanan.swift in Sources */,
+				F96B0C64243A31BC008D7C78 /* FetchJenisHewan.swift in Sources */,
+				F9BB7095243CED39008DC483 /* EditPelanggan.swift in Sources */,
+				F9BB709D243CED7F008DC483 /* EditHewan.swift in Sources */,
+				F9367DBC241FD1220038D2E6 /* EditProduk.swift in Sources */,
+				F98BDC2724543EED00D05AAC /* InfoDetailProduk.swift in Sources */,
+				F9029EED2452084D008024E5 /* DaftarProduk.swift in Sources */,
+				F9CC7CE724973C0D005688B5 /* ViewPegawai.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F965113224169649005CA23A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F965113324169649005CA23A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F965113A2416964B005CA23A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F965113B2416964B005CA23A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F965113E2416964B005CA23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F965113F2416964B005CA23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F96511412416964B005CA23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9A516EDD35B03C76FFF404 /* Pods-Kouvee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				INFOPLIST_FILE = Kouvee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = P3L.Kouvee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F96511422416964B005CA23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B59017DFD4C0D5ED001B75 /* Pods-Kouvee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5JS4LR33P;
+				INFOPLIST_FILE = Kouvee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = P3L.Kouvee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F965112424169649005CA23A /* Build configuration list for PBXProject "Kouvee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F965113E2416964B005CA23A /* Debug */,
+				F965113F2416964B005CA23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96511402416964B005CA23A /* Build configuration list for PBXNativeTarget "Kouvee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96511412416964B005CA23A /* Debug */,
+				F96511422416964B005CA23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F965113524169649005CA23A /* Kouvee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F965113624169649005CA23A /* Kouvee.xcdatamodel */,
+			);
+			currentVersion = F965113624169649005CA23A /* Kouvee.xcdatamodel */;
+			path = Kouvee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F965112124169649005CA23A /* Project object */;
+}
